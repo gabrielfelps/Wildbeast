@@ -30,3 +30,23 @@
 .header nav a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 760px) {
+  .header {
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+
+  .header > a {
+    margin-bottom: 20px;
+    margin-left: 13px;
+  }
+
+  .header nav a {
+    font-size: 1rem;
+  }
+
+  .header ul {
+    gap: 10px;
+  }
+}

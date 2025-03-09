@@ -19,3 +19,42 @@
 .sidebar li a:hover {
   background-color: #b07dfb;
 }
+
+@keyframes arrow {
+  from {
+    right: 30px;
+  }
+  to {
+    right: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .sidebar {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-auto;
+    position: relative;
+  }
+
+  .sidebar::after {
+    content: "→";
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    color: rgba(0, 0, 0, 0.3);
+    animation: arrow 500ms ease-in-out 0s infinite alternate;
+  }
+
+  .sidebar ul {
+    display: flex;
+  }
+
+  .sidebar li {
+    flex: 1 0 140px;
+  }
+
+  .sidebar li a {
+    margin: 30px 30px 30px 0;
+  }
+}

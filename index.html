@@ -7,6 +7,11 @@
   <meta name="description" content="Um site animal.">
   <meta name="author" content="gabrielfelps">
   <title>Wildbeast</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="preload" href="css/style.css" as="style">
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 </head>
@@ -25,12 +30,12 @@
     </header>
     <nav class="sidebar">
       <ul>
-        <li><a href=""><img src="img/icones/cervo.svg" alt="Cervo"></a>
-        <li><a href=""><img src="img/icones/leao.svg" alt="Leão"></a>
-        <li><a href=""><img src="img/icones/gato.svg" alt="Gato"></a>
-        <li><a href=""><img src="img/icones/vaca.svg" alt="Vaca"></a>
-        <li><a href=""><img src="img/icones/ovelha.svg" alt="Ovelha"></a>
-        <li><a href=""><img src="img/icones/abelha.svg" alt="Abelha"></a>
+        <li><a href="#"><img src="img/icones/cervo.svg" alt="Cervo"></a>
+        <li><a href="#"><img src="img/icones/leao.svg" alt="Leão"></a>
+        <li><a href="#"><img src="img/icones/gato.svg" alt="Gato"></a>
+        <li><a href="#"><img src="img/icones/vaca.svg" alt="Vaca"></a>
+        <li><a href="#"><img src="img/icones/ovelha.svg" alt="Ovelha"></a>
+        <li><a href="#"><img src="img/icones/abelha.svg" alt="Abelha"></a>
       </ul>
     </nav>
 
@@ -40,20 +45,24 @@
         <span>da família canis lupus</span>
       </div>
 
-      <div class="animal-info">
-        <span class="number">72</span>
-        <span class="label">kg</span>
-      </div>
-      <div class="animal-info">
-        <span class="number">3</span>
-        <span class="label">age</span>
+      <div class="animal-info-container">
+        <div class="animal-info">
+          <span class="number">72</span>
+          <span class="label">kg</span>
+        </div>
+        <div class="animal-info">
+          <span class="number">13</span>
+          <span class="label">age</span>
+        </div>
       </div>
 
-      <p>É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás.[2] O
+      <p class="allrow">É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos
+        atrás.[2] O
         sequenciamento
         de DNA e estudos genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico</p>
-      <img src="img/wolf1.jpg" alt="Lobo Uivando">
-      <p>É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos atrás.[2] O
+      <img class="img1" src="img/wolf1.jpg" alt="Lobo Uivando">
+      <p class="trivia">É um sobrevivente da Era do Gelo, originário do Pleistoceno Superior, cerca de 300 mil anos
+        atrás.[2] O
         sequenciamento
         de DNA e estudos.</p>
       <img src="img/wolf2.jpg" alt="Dois lobos">
@@ -68,7 +77,7 @@
         antiga
         União Soviética.</p>
 
-      <blockquote class="quote">
+      <blockquote class="quote allrow">
         <p>“Há algo no uivar do lobo que tira um homem do aqui e agora e o transporta para uma floresta da mente.”</p>
       </blockquote>
 
@@ -89,7 +98,7 @@
           sequenciamento
           de DNA e estudos genéticos reafirmam que o lobo cinzento é ancestral do cão doméstico.</p>
       </div>
-      <img src="img/wolf3.jpg" alt="Lobos socializando entre si">
+      <img class="allrow" src="img/wolf3.jpg" alt="Lobos socializando entre si">
     </main>
 
     <aside class="ads">

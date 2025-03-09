@@ -1,0 +1,13 @@
+/* Global */
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+
+/* Navigation */
+@import "nav/navigation.css";
+
+/* Main */
+@import "main/information.css";
+
+/* Aside */
+@import "aside/ads.css";

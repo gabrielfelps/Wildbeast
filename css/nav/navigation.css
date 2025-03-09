@@ -1,0 +1,21 @@
+.sidebar {
+  background-color: #fafbfc;
+  padding: 30px;
+}
+
+.sidebar li a {
+  display: block;
+  min-width: 60px;
+  max-width: 140px;
+  margin: 0px auto 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  transition: 150ms ease-in-out;
+  transition-property: background-color;
+}
+
+.sidebar li a:hover {
+  background-color: #b07dfb;
+}
